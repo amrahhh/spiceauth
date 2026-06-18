@@ -3,14 +3,14 @@ name = "spiceauth"
 version = "0.1.0"
 description = "Relationship-Based Access Control (ReBAC) engine for Python."
 authors = [
-    {name = "amrah", email = "amrah@example.com"},
+    {name = "amrahhh", email = "bagirovemrah97@gmail.com"},
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.9,<4.0"
 dependencies = [
     "pydantic>=2.0.0",
     "sqlalchemy>=2.0.0",
-    "sqla-async-orm-queries>=0.0.1",
+    "sqla-async-orm-queries>=1.2.0",
 ]
 
 [project.optional-dependencies]
